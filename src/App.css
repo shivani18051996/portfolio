@@ -1,5 +1,13 @@
+html, body {
+  background-color: #d4dee4;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .App-logo {

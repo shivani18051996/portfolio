@@ -1,0 +1,142 @@
+.text {
+    color: #444;
+}
+.summaryText{
+    animation-delay: 150ms;
+/* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+.btn-resume{
+    padding: 10px 25px;
+    color: #2978b5;
+    border: 2px solid #2978b5;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+    transition-duration: 2s;
+}
+.btn-resume:hover{
+    background-color: #2978b5;
+    color: #fff;
+    
+}
+.profile-container{
+    width: 50%;
+}
+.profile{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}  
+.profile-text{
+    width: calc(100%-200px);
+}
+.active{
+    color:#2978b5 ;
+}
+
+/* Add this CSS to your component or in a separate styles file */
+
+.content {
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 90px;
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  .card button {
+    display: inline-block;
+    background-color: #14c8eb;
+    color: #fff;
+    border: none;
+    padding: 1.5em 1.6em;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: background-color 0.5s ease-out;
+  }
+  
+  .card button:focus {
+    outline: none;
+  }
+  
+  .card button:hover {
+    background-color: #0ea8c7;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card .text-info {
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    width: 62%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    height: 180px;
+    border-radius: 25px;
+  }
+  
+  .card:hover .text-info {
+    transform: translateY(0);
+  }
+  
+  .text-info h2 {
+    margin: 0;
+  }
+  
+  .text-info span {
+    font-size: 14px;
+  }
+  
+  .text-info p {
+    margin: 10px 0;
+  }
+  
+  .text-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text-info li {
+    margin-bottom: 5px;
+  }
+  .controls {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5rem;
+  }
+  .controls button {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: #14c8eb;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+  
+  .controls button:hover {
+    background-color: #0ea8c7;
+  }
+  
+  .controls button:nth-child(1) {
+    margin-right: 2rem;
+  }
